@@ -60,7 +60,7 @@ The arcssd folder contains three versions of the modem: invemphasis, noemphasis,
 For source code
  - Frontend: [https://github.com/by2hit/arcss_panel_pc](https://github.com/by2hit/arcss_panel_pc)
  - Modem: [https://github.com/by2hit/arcssd-go](https://github.com/by2hit/arcssd-go)
- - PCSI: [https://github.com/BY2HIT/pcsi](https://github.com/BY2HIT/pcsi)
+ - PCSI: [https://github.com/by2hit/pcsi](https://github.com/by2hit/pcsi)
 
 For packaged binaries
  - [https://github.com/BY2HIT/arcss_panel_pc/releases/download/v1.0/HamStation_20230609.zip](https://github.com/BY2HIT/arcss_panel_pc/releases/download/v1.0/HamStation_20230609.zip)
