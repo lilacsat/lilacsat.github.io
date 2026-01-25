@@ -55,8 +55,8 @@ The arcssd folder contains three versions of the modem: invemphasis, noemphasis,
 
 ## Known Issues
 
- - **Windows 11 Audio Device Names:** On some Windows 11 computers, the backend may fail to start due to character encoding issues with the built-in sound card's device name. Try renaming the audio device in Windows settings, or switch to a USB sound card or Virtual Audio Cable (VAC).
- - **2400 Mode Audio Quality:** The 2400bps mode requires high audio flatness (frequency response) from the radio. If you experience high packet loss, try adjusting the radio's audio balance/EQ configuration.
+ - **Windows 11 Audio Device Names:** On some Windows 11 computers, the backend may fail to start due to character encoding issues with the built-in sound card's device name. Try renaming the audio device in Windows settings, or switch to a USB sound card or virtual audio cable.
+ - **2400 Mode Audio Quality:** The 2400bps mode requires high audio flatness from the radio. If you experience high packet loss, try adjusting the radio's audio balance/EQ configuration.
  - **Antivirus Alerts:** The packaged .exe file may trigger false positive warnings from antivirus software. Run the Python source code directly, re-package the software locally on your own machine, or run the software in a sandbox environment.
 
 ## Software Download
