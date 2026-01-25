@@ -2,24 +2,23 @@
 title:  "HamStation: An Open Source SSDV/PCSI Image & APRS Messaging Software"
 ---
 
-VR2Sat is the amateur radio payload of the Hong Kong Popular Science Satellite, proposed by the Textile Institute American Chamber of Commerce Woo Hon Fai Secondary School Amateur Radio Club (VR2XHF), and is planned to be deployed into a 385 km, 41.5-degree inclination orbit in Q3 2026.
+HamStation is an amateur radio communication software designed for Windows. It facilitates image and short message transmission over VHF/UHF analog FM channels and is suitable for both terrestrial and satellite communication scenarios.
 
-## VHF Uplink
+<img width="2098" height="1192" alt="hamstation_main1" src="https://github.com/user-attachments/assets/e460a109-f127-46cb-8aca-432d718f04b5" />
 
-|                       | Data   | Unit |
-| --------------------- | ------ | ---- |
-| Frequency             | 145.9  | MHz  |
-| Distance              | 1399.3 | km   |
-| Modulation Type       | FM     | -    |
-| TX Power              | 7      | dBW  |
-| TX Gain               | 5      | dBi  |
-| Ant Polarization Loss | 3      | dB   |
-| Free Space Loss       | 138.6  | dB   |
-| Other Path Loss       | 1      | dB   |
-| RX Gain               | -6     | dBi  |
-| RX Input Level        | -106.6 | dBm  |
-| Sensitivity           | -110   | dBm  |
-| Margin                |  3.4  | dB   |
+## Main Features
+
+The software supports two image encoding formats:
+ - SSDV Format: A specialized implementation based on JPEG that allows for image recovery and display even when some data packets are lost.
+ - PCSI Format: Utilizes Compressed Sensing technology where each data packet contains partial information of the complete image. The image clarity progressively improves as the number of received packets increases.
+
+Image Transmission supports 1200 or 2400bps AFSK modulation with the following selectable data protocols:
+ - AX.25 Protocol: Compatible with common soundmodem software and built-in radio modems (TNCs).
+ - CCSDS Protocol: Uses Reed-Solomon Forward Error Correction (FEC) for higher transmission sensitivity.
+
+Additionally, HamStation supports sending, receiving, and forwarding APRS short messages at a rate of 1200bps and provides basic QSO (contact) logging functionality.
+
+Demo: To see the effects of the different image transmission modes, please visit: https://www.bilibili.com/video/BV1WP4y1q7Ly/
 
 ## UHF Downlink
 
