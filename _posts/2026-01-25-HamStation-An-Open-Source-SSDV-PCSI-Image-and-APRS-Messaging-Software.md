@@ -19,7 +19,7 @@ The software supports two image encoding formats:
 
 Image Transmission supports 1200 or 2400bps AFSK modulation with the following selectable data protocols:
  - AX.25 Protocol: Compatible with common soundmodem software and built-in radio modems (TNCs).
- - CCSDS Protocol: Uses Reed-Solomon Forward Error Correction (FEC) for higher transmission sensitivity.
+ - CCSDS Protocol: Uses Reed-Solomon Forward Error Correction (FEC) for better sensitivity.
 
 Additionally, HamStation supports sending, receiving, and forwarding APRS short messages at a rate of 1200bps and provides basic QSO logging functionality.
 
